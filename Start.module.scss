@@ -1,0 +1,88 @@
+.startPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contactButton {
+  padding: 0.5rem 1rem;
+  background: #6b46c1;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.videoContainer {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.videoPlaceholder {
+  border-radius: 24px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #f4a261;
+}
+
+.testimonials {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.testimonialCard {
+  background: #6b46c1;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  min-width: 300px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+  .profilePic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  span {
+    color: #333;
+    font-weight: 500;
+  }
+} 
